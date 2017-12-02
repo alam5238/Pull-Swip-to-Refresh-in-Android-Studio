@@ -115,4 +115,4 @@ Build, Run and Enjoy!!
 
 Follow on Web :: 
 
-http://bd.nas-tec.ml/blog/2017/11/30/gif-animation-in-android-studio/
+http://bd.nas-tec.ml/blog/2017/12/02/pull-swip-to-refresh-in-android-studio/
