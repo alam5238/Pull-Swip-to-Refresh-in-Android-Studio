@@ -6,12 +6,14 @@ Pull-down or swip to Refresh of WebView widget.
 
 ***Step 1:***
 Create a Project first in Android Studio.
+
 ***Step 2:***
 Add internet permission in `Android Manifest.xml` file
 
 ```
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
+
 ***Step 3:***
 Now add below code in your `activity_main.xml` file in this location - `res/layout/activity_main.xml` 
 
@@ -105,6 +107,7 @@ public void loadWeb(){
     }
 ```
 Here in `onRecivedError()` method `webView.loadUrl()` called the web address when WebView faild load any web page or somthing error else. `file:///android_asset/www/error.html` called android offline error page in assets folder.
+
 
 ***Step 6:***
 Build, Run and Enjoy!!
